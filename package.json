@@ -1,0 +1,44 @@
+{
+  "name": "bobril-markdown",
+  "version": "1.0.0",
+  "description": "Bobril module to using library remark-bobril directly in browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typescript": {
+    "main": "index.ts"
+  },
+  "bobril": {
+    "title": "Bobril Markdown",
+    "example": "examples/example.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xrew/bobril-markdown.git"
+  },
+  "keywords": [
+    "bobril",
+    "remark",
+    "markdown",
+    "remark-bobril"
+  ],
+  "author": "Tomáš Sychra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xrew/bobril-markdown/issues"
+  },
+  "homepage": "https://github.com/Xrew/bobril-markdown#readme",
+  "dependencies": {
+    "bobril": "5.3.1",
+    "remark": "^8.0.0",
+    "remark-bobril": "^0.0.1"
+  },
+  "devDependencies": {
+    "bobril-flex-ie10": "^1.1.1",
+    "bobril-m": "^0.8.0"
+  },
+  "resolutions": {
+    "bobril": "7.6.1"
+  }
+}
